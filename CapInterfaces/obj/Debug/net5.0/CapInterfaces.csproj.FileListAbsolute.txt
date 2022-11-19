@@ -1,0 +1,16 @@
+D:\# Aulas de Programação\C#\Capitulo Interfaces\CapInterfaces\bin\Debug\net5.0\CapInterfaces.exe
+D:\# Aulas de Programação\C#\Capitulo Interfaces\CapInterfaces\bin\Debug\net5.0\CapInterfaces.deps.json
+D:\# Aulas de Programação\C#\Capitulo Interfaces\CapInterfaces\bin\Debug\net5.0\CapInterfaces.runtimeconfig.json
+D:\# Aulas de Programação\C#\Capitulo Interfaces\CapInterfaces\bin\Debug\net5.0\CapInterfaces.runtimeconfig.dev.json
+D:\# Aulas de Programação\C#\Capitulo Interfaces\CapInterfaces\bin\Debug\net5.0\CapInterfaces.dll
+D:\# Aulas de Programação\C#\Capitulo Interfaces\CapInterfaces\bin\Debug\net5.0\ref\CapInterfaces.dll
+D:\# Aulas de Programação\C#\Capitulo Interfaces\CapInterfaces\bin\Debug\net5.0\CapInterfaces.pdb
+D:\# Aulas de Programação\C#\Capitulo Interfaces\CapInterfaces\obj\Debug\net5.0\CapInterfaces.csproj.AssemblyReference.cache
+D:\# Aulas de Programação\C#\Capitulo Interfaces\CapInterfaces\obj\Debug\net5.0\CapInterfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\# Aulas de Programação\C#\Capitulo Interfaces\CapInterfaces\obj\Debug\net5.0\CapInterfaces.AssemblyInfoInputs.cache
+D:\# Aulas de Programação\C#\Capitulo Interfaces\CapInterfaces\obj\Debug\net5.0\CapInterfaces.AssemblyInfo.cs
+D:\# Aulas de Programação\C#\Capitulo Interfaces\CapInterfaces\obj\Debug\net5.0\CapInterfaces.csproj.CoreCompileInputs.cache
+D:\# Aulas de Programação\C#\Capitulo Interfaces\CapInterfaces\obj\Debug\net5.0\CapInterfaces.dll
+D:\# Aulas de Programação\C#\Capitulo Interfaces\CapInterfaces\obj\Debug\net5.0\ref\CapInterfaces.dll
+D:\# Aulas de Programação\C#\Capitulo Interfaces\CapInterfaces\obj\Debug\net5.0\CapInterfaces.pdb
+D:\# Aulas de Programação\C#\Capitulo Interfaces\CapInterfaces\obj\Debug\net5.0\CapInterfaces.genruntimeconfig.cache
