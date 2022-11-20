@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace CapInterfaces.Services
 {
     // Aqui temos uma composição de serviços onde um depende do outro (RentalService - BrazilTaxService)
-    class BrazilTaxService      // Imposto
+    class BrazilTaxService : ITaxService      // Realização de Interface
     {
         public double Tax(double amount)    // operação
         {

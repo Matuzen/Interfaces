@@ -8,13 +8,14 @@ namespace CapInterfaces.Services
         public double PricePerHour { get; private set; }    // Não pode modificá-los de outra classe
         public double PricePerDay { get; private set; }
 
-        // Dependência inapropriada 
-        private BrazilTaxService _brazilTaxService = new BrazilTaxService();
+        // Alterar a dependencia por meio da interface
+        private ITaxService _taxService;
 
-        public RentalService(double pricePerHour, double pricePerDay)
+        public RentalService(double pricePerHour, double pricePerDay, ITaxService taxService)
         {
             PricePerHour = pricePerHour;
             PricePerDay = pricePerDay;
+            _taxService = taxService;  // inversão de controle por meio de injeção de dependência
         }
 
         public void ProcessInvoice(CarRental carRental)         // Essa operação vai gerar o Invoice
@@ -30,7 +31,7 @@ namespace CapInterfaces.Services
                 basicPayment = PricePerDay * Math.Ceiling(duration.TotalDays);
             }
 
-            double tax = _brazilTaxService.Tax(basicPayment);
+            double tax = _taxService.Tax(basicPayment);
 
             // Instanciarr o Invoice e associar com o carRental
             carRental.Invoice = new Invoice(basicPayment, tax);

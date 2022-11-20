@@ -25,7 +25,7 @@ namespace CapInterfaces
             // Instanciar o Alugel associado ao Veículo
             CarRental carRental = new CarRental(start, finish, new Vehicle(model));
 
-            RentalService rentalService = new RentalService(hour, day);
+            RentalService rentalService = new RentalService(hour, day, new BrazilTaxService());
             rentalService.ProcessInvoice(carRental); 
             Console.WriteLine("INVOICE: ");
             Console.WriteLine(carRental.Invoice);
